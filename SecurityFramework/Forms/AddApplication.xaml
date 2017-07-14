@@ -1,0 +1,13 @@
+﻿<Window x:Class="SecurityFramework.AddApplication"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Application" Height="371.053" Width="548.12" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Add an application" HorizontalAlignment="Left" Margin="183,59,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Name of Application" HorizontalAlignment="Left" Margin="83,159,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="appName" HorizontalAlignment="Left" Height="32" Margin="225,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <Button x:Name="addButton" Content="Add Application" HorizontalAlignment="Left" Margin="313,217,0,0" VerticalAlignment="Top" Width="128" FontSize="16" Click="addButton_Click"/>
+        <Label Content="Security Framework v1.0 (c)" HorizontalAlignment="Left" Margin="380,306,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

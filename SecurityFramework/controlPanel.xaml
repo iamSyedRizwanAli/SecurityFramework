@@ -1,0 +1,23 @@
+﻿<Window x:Class="SecurityFramework.controlPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Control Panel - Security Application" Height="454.82" Width="570.248" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,0">
+        <Label Content="W" HorizontalAlignment="Left" Margin="0,-7,0,0" VerticalAlignment="Top" FontSize="90" FontFamily="Times New Roman"/>
+        <Label Content="ELCOME" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" FontSize="50" FontFamily="Times New Roman"/>
+        <Label Content="DEAR USER:" HorizontalAlignment="Left" Margin="100,62,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Times New Roman"/>
+        <Label x:Name="nameOfUser" Content="Label" HorizontalAlignment="Left" Margin="281,62,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Times New Roman"/>
+        <Label Content="HAT DO YOU WANT TO DO?" HorizontalAlignment="Left" Margin="96,192,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="Times New Roman"/>
+        <Label Content="W" HorizontalAlignment="Left" Margin="16,164,0,0" VerticalAlignment="Top" FontSize="90" FontFamily="Times New Roman"/>
+        <ComboBox x:Name="permissions_ComboBox" HorizontalAlignment="Left" Margin="219,247,0,0" VerticalAlignment="Top" Width="212" FontSize="16" Background="White"/>
+        <Label Content="Your options" HorizontalAlignment="Left" Margin="115,243,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="do_button" Content="DO" HorizontalAlignment="Left" Margin="449,247,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="do_button_Click" />
+        <Button x:Name="logout_btn" Content="Log Out" HorizontalAlignment="Left" Margin="471,10,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="logout_btn_Click"/>
+        <ListBox x:Name="roles_listbox" HorizontalAlignment="Left" Height="45" Margin="364,132,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label Content="Your Roles" HorizontalAlignment="Left" Margin="364,106,0,0" VerticalAlignment="Top"/>
+        <Label Content="Security Framework v1.0 (c)" HorizontalAlignment="Left" Margin="402,390,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+
+
+
+    </Grid>
+</Window>
